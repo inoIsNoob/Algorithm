@@ -1,3 +1,4 @@
+#DFS는 Depth-First Search 즉 깊이 우선 탐색이다. 노드를 탐색하여 노드와 연결된 가장 깊은 곳(큰 값) 부터 탐색하는 알고리즘이다.
 def dfs(graph, v, visited):
     visited[v] = True
     print(v, end=' ')
